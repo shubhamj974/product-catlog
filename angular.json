@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss",
+              "@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": []
           },

@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="row my-4">
+        <div class="col-md-6 offset-md-3">
+            <app-product-form (dataFromChild)="onDataAccess($event)"></app-product-form>
+            <app-product-card [dataFromParent]="productArray"></app-product-card>
+        </div>
+    </div>
+</div>
